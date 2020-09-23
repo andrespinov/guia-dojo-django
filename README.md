@@ -2,7 +2,6 @@
 
 ## Windows
 
-### Instalar Pyhton
 Para instalar Python en Windows debemos descargar el instalador [desde la página oficial](https://www.python.org/downloads/).
 
 ![](images/image1.png?raw=true)
