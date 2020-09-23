@@ -5,15 +5,15 @@
 ### Instalar Pyhton
 Para instalar Python en Windows debemos descargar el instalador [desde la página oficial](https://www.python.org/downloads/).
 
-![Descarga](https://raw.githubusercontent.com/andrespinov/guia-dojo-django/master/images/image2.png)
+![](images/image2.png?raw=true)
 
 Esto deberá descargar un archivo con extensión .exe, lo ejecutamos. Antes de continuar con la instalación asegurate de seleccionar la opción **Add Python 3.8 to PATH**, así no tendremos que configurar Python en nustro PATH manualmente.
 
-![Añadir a PATH](https://raw.githubusercontent.com/andrespinov/guia-dojo-django/master/images/image5.png)
+![](images/image5.png?raw=true)
 
 Presionamos la opción de **Install Now** y esperamos.
 
-![Finalizar](https://raw.githubusercontent.com/andrespinov/guia-dojo-django/master/images/image3.png)
+![](images/image3.png?raw=true)
 
 Luego finalizamos la instalación presionando **Close**.add
 
