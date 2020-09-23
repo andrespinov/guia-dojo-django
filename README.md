@@ -2,6 +2,8 @@
 
 ## Windows
 
+### Instalación de Python
+
 Para instalar Python en Windows debemos descargar el instalador [desde la página oficial](https://www.python.org/downloads/).
 
 ![](images/image1.png?raw=true)
@@ -24,26 +26,38 @@ Después de finalizar la instalación, abrimos una lina de comandos como cmd o p
 
 Ésto debe arrojar como respuesta **Python 3.8.4** (o la versión de Python que se haya descargado en el instalador). Si el comando no existe se recomienda reiniciar las lineas de comando o todo el sistema operativo para que el PATH sea recargado.
 
-Finalmente en el dojo se hara uso de los ambientes virtuales de python para ello utilizaremos venv, para probar el uso de ambientes virtuales cree una carpeta de pruebas
+### Configuración del ambiente virtual
+
+En el dojo se hara uso de los ambientes virtuales de python para ello utilizaremos venv, para probar el uso de ambientes virtuales cree una carpeta de pruebas
 
 ```bash
-PS> mkdir prueba
-PS> cd prueba
-PS> py -m venv ambiente-prueba
+PS> mkdir dojo-django
+PS> cd dojo-django
+PS> py -m venv ambiente-dojo
 ```
 
 Para activar el ambiente ejecute
 
 ```bash
-PS> .\ambiente-prueba\Scripts\activate
+PS> .\ambiente-dojo\Scripts\activate
 ```
 
 Para confirmar que está haciendo uso del ambiente virtual debe verificar que el interprete de python tiene la ruta del ambiente virtual.
 
 ```bash
 PS> where python
-../ambiente-prueba/bin/python.exe
+../ambiente-dojo/bin/python.exe
 ```
+
+### Instalación de Django
+
+Luego procedemos a la instalación de django dentro del ambiente virtual
+
+```bash
+PS> pip install django
+```
+
+### Desativar el ambiente virtual
 
 Para desactivar el ambiente virtual ejecute
 
@@ -52,6 +66,8 @@ PS> deactivate
 ```
 
 ## Linux
+
+### Instalación de Python
 
 Por defecto la mayoria de distribuciones de Linux tienen instalado python3, para verificarlo utilice
 
@@ -98,31 +114,38 @@ En caso de no tener pip3 ejecute
 $ sudo apt install python3-pip
 ```
 
-Finalmente en el dojo se hara uso de los ambientes virtuales de python para ello utilizaremos venv, para probar el uso de ambientes virtuales cree una carpeta de pruebas
+### Configuración del ambiente virtual
+
+En el dojo se hara uso de los ambientes virtuales de python para ello utilizaremos venv, para probar el uso de ambientes virtuales cree una carpeta de pruebas
 
 ```bash
-$ mkdir prueba
-$ cd prueba
-
-$ python3 -m venv ambiente-prueba
+$ mkdir dojo-django
+$ cd dojo-django
+$ python3 -m venv ambiente-dojo
 ```
 
 Para activar el ambiente ejecute
 
 ```bash
-$ source ambiente-prueba/bin/activate
+$ source ambiente-dojo/bin/activate
 ```
 
 Para confirmar que está haciendo uso del ambiente virtual debe verificar que el interprete de python tiene la ruta del ambiente virtual.
 
 ```bash
 $ which python
-../ambiente-prueba/bin/python
+../ambiente-dojo/bin/python
 ```
+Luego procedemos a la instalación de django dentro del ambiente virtual
+
+```bash
+$ pip install django
+```
+
+### Desativar el ambiente virtual
 
 Para desactivar el ambiente virtual ejecute
 
 ```bash
 $ deactivate
 ```
-
