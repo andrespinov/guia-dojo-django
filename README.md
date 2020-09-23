@@ -5,15 +5,15 @@
 ### Instalar Pyhton
 Para instalar Python en Windows debemos descargar el instalador [desde la página oficial](https://www.python.org/downloads/).
 
-![](images/image2.png?raw=true)
+![](images/image2.png)
 
 Esto deberá descargar un archivo con extensión .exe, lo ejecutamos. Antes de continuar con la instalación asegurate de seleccionar la opción **Add Python 3.8 to PATH**, así no tendremos que configurar Python en nustro PATH manualmente.
 
-![](images/image5.png?raw=true)
+![](images/image5.png)
 
 Presionamos la opción de **Install Now** y esperamos.
 
-![](images/image3.png?raw=true)
+![](images/image3.png)
 
 Luego finalizamos la instalación presionando **Close**.add
 
